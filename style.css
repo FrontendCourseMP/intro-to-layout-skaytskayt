@@ -1,0 +1,193 @@
+/* roboto-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-100 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/roboto-v30-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+:root{
+    font-size: 62.5%;
+    --maincolor1: #2A84EE;
+    --maincolor2: #2EB897;
+    --maincolor3: #212121;
+    --maincolor4: #F5F5F5;
+    --maincolor5: #707070;
+
+}
+
+body{
+    font-family: 'Roboto';
+    font-size: 1.6em;
+}
+
+h1{
+    max-width: 15em;
+}
+
+.par1{
+    max-width: 25em;
+}
+
+footer{
+    background-color: aliceblue;
+    max-width: 25em;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.light_blue{
+    background-color: aliceblue;
+    max-width: 26em;
+    border-radius: 1em;
+    padding: 1em 0 1em 1em;
+    margin: 1em 1em 1em 0;
+    
+}
+
+.green{
+    color: var(--maincolor2);
+    text-decoration: none;
+}
+
+.black{
+    color: var(--maincolor3);
+    text-decoration: none;
+}
+.blue{
+    color: var(--maincolor1);
+}
+
+.grey{
+    color: var(--maincolor5);
+    text-decoration: none;
+}
+
+.button_blue{
+    color: var(--maincolor4);
+    background-color: var(--maincolor1);
+    padding: 1em;
+    border-radius: 3em;
+}
+
+.button_blue2{
+    color: var(--maincolor4);
+    background-color: var(--maincolor1);
+    padding: 1em;
+    margin: 2em;
+    border-radius: 3em;
+    text-decoration: none;
+}
+
+.form{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.figure{
+    color: var(--maincolor1);
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0.5em 0 0 0;
+}
+
+.bold_font_h2{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.bold_font_h3{
+    font-weight: 600;
+}
+
+.bold_font_h4{
+    font-weight: 600;
+}
+
+li {
+    color: var(--maincolor2);
+}
+.text_in_h4{
+    color: var(--maincolor5);
+}
+
+.green_block{
+    background-color: var(--maincolor2);
+    color: var(--maincolor4);
+    max-width: 25em;
+    border-radius: 1em;
+    padding: 0.5em 0 0 1em;
+    margin: 1em 0 0 0;
+    padding: 1em;
+}
+
+.green_month{
+    background-color: var(--maincolor2);
+    color: var(--maincolor4);
+    border-radius: 1em;
+}
+
+.white_month{
+    background-color: white;
+    color: var(--maincolor3);
+    border-radius: 1em;
+}
+
+.light_green{
+    background-color: #98e3ac;
+    max-width: 26em;
+    border-radius: 1em;
+    padding: 1em 0 1em 1em;
+    margin: 1em 1em 1em 0;
+}
+
+.sail{
+    background-color: var(--maincolor1);
+    max-width: 4em;
+    padding: 0.3em;
+    border-radius: 1em;
+    color: var(--maincolor4);
+}
+
+.button_green{
+    color: var(--maincolor4);
+    background-color: var(--maincolor2);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 3em;
+    text-decoration: none;
+}
+
+.orange_block{
+    background-color: orange;
+    color: var(--maincolor3);
+    max-width: 25em;
+    border-radius: 1em;
+    margin: 1em 0 0 0;
+    padding:1em;
+}
+
+.purple{
+    color: purple;
+    font-weight: 600;
+}
+
+.blue_ozon{
+    color: var(--maincolor1);
+    font-weight: 600;
+}
