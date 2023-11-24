@@ -1,0 +1,28 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="20" height="20" fill="#F5F5F5"/>
+<g id="m" clip-path="url(#clip0_332_557)">
+<rect width="360" height="8432" transform="translate(-40 -2927)" fill="white"/>
+<g id="Ellipse 12" opacity="0.3" filter="url(#filter0_f_332_557)">
+<circle cx="16.5" cy="192.5" r="200.5" fill="url(#paint0_radial_332_557)"/>
+</g>
+<rect id="Rectangle 48" x="-20" y="-20" width="320" height="124" rx="10" fill="#EAF3FD"/>
+<g id="Vector">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20ZM10 18.1818C14.5187 18.1818 18.1818 14.5187 18.1818 10C18.1818 5.48131 14.5187 1.81818 10 1.81818C5.48131 1.81818 1.81818 5.48131 1.81818 10C1.81818 14.5187 5.48131 18.1818 10 18.1818ZM9.12321 11.0517L7.19474 9.12321L5.90909 10.4089L9.12321 13.623L10.0875 12.6587L14.6424 8.10383L13.3567 6.81818L9.12321 11.0517Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20ZM10 18.1818C14.5187 18.1818 18.1818 14.5187 18.1818 10C18.1818 5.48131 14.5187 1.81818 10 1.81818C5.48131 1.81818 1.81818 5.48131 1.81818 10C1.81818 14.5187 5.48131 18.1818 10 18.1818ZM9.12321 11.0517L7.19474 9.12321L5.90909 10.4089L9.12321 13.623L10.0875 12.6587L14.6424 8.10383L13.3567 6.81818L9.12321 11.0517Z" fill="#2A84EE"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_332_557" x="-484" y="-308" width="1001" height="1001" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_332_557"/>
+</filter>
+<radialGradient id="paint0_radial_332_557" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16.5 192.5) rotate(90) scale(200.5)">
+<stop stop-color="#2EB897"/>
+<stop offset="1" stop-color="#2EB897" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_332_557">
+<rect width="360" height="8432" fill="white" transform="translate(-40 -2927)"/>
+</clipPath>
+</defs>
+</svg>

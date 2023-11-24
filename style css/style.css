@@ -50,7 +50,7 @@ h1{
 .light_blue{
     background-color: var(--maincolor6);
     border-radius: 1rem;
-    padding: 1rem 0 1rem 1rem;
+    padding: 1rem 0 3rem 1rem;
     margin: 1rem 1rem 1rem 0;
     
 }
@@ -79,16 +79,21 @@ h1{
     padding: 1rem;
     border-radius: 2rem;
     border: none;
+    text-decoration: none;
 }
 
 .button_blue2{
     color: var(--maincolor4);
     background-color: var(--maincolor1);
     padding: 1rem;
-    margin: 2rem;
+    margin: 1rem;
     border-radius: 2rem;
     text-decoration: none;
     border: none;
+}
+
+.table{
+    margin: 2rem;
 }
 
 .form{
@@ -129,7 +134,7 @@ li {
 }
 
 .green_block{
-    background-color: var(--maincolor2);
+    background: linear-gradient(var(--maincolor2), var(--maincolor1));
     color: var(--maincolor4);
     border-radius: 1rem;
     padding: 0.5rem 0 0 1rem;
@@ -170,6 +175,7 @@ li {
     margin: 1rem;
     border-radius: 3rem;
     text-decoration: none;
+    border: none;
 }
 
 .orange_block{
@@ -188,4 +194,8 @@ li {
 .blue_ozon{
     color: var(--maincolor1);
     font-weight: 700;
+}
+
+.month{
+    border: none;
 }
