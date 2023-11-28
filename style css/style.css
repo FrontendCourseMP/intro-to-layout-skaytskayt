@@ -33,18 +33,35 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
+    margin: 0.7rem;
+    padding: 0.5rem;
 }
 
+button{
+    border: none;
+    background-color: transparent;
+}
 
 footer{
     background-color: var(--maincolor6);
     border-radius: 1rem;
-    padding: 1rem;
+    margin: 0.7rem 0.7rem 0.7rem 0;
+    padding: 0.5rem;
 }
 
 h1{
     font-size: 2rem;
     font-weight: 600;
+}
+
+input{
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+}
+
+img{
+    margin: 0.5rem;
 }
 
 .light_blue{
@@ -99,12 +116,9 @@ h1{
 .form{
     border-radius: 0.5rem;
     padding: 0.5rem;
-}
-
-input{
-    border-radius: 1rem;
     border: none;
 }
+
 
 .figure{
     color: var(--maincolor1);
@@ -166,6 +180,7 @@ li {
     padding: 0.3rem;
     border-radius: 1rem;
     color: var(--maincolor4);
+    width: max-content;
 }
 
 .button_green{
@@ -176,13 +191,19 @@ li {
     border-radius: 3rem;
     text-decoration: none;
     border: none;
+    font-weight: 700;
+}
+
+.button_transparent{
+    color: transparent;
+    border: 2px solid #2EB897;
+    border-radius: 3rem;
 }
 
 .orange_block{
     background-color: var(--maincolor8);
     color: var(--maincolor3);
     border-radius: 1rem;
-    margin: 1rem 0 0 0;
     padding:1rem;
 }
 
@@ -198,4 +219,9 @@ li {
 
 .month{
     border: none;
+}
+
+.text_in_transparent{
+    color: #212121;
+    font-weight: 700;
 }
