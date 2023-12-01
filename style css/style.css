@@ -55,14 +55,12 @@ h1{
 }
 
 input{
-    border-radius: 0.5rem;
+    border-radius:3rem;
     padding: 0.5rem;
     border: none;
 }
 
-img{
-    margin: 0.5rem;
-}
+
 
 .light_blue{
     background-color: var(--maincolor6);
@@ -114,7 +112,7 @@ img{
 }
 
 .form{
-    border-radius: 0.5rem;
+    border-radius: 3rem;
     padding: 0.5rem;
     border: none;
 }
@@ -129,7 +127,7 @@ img{
 
 .bold_font_h2{
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 .bold_font_h3{
@@ -151,9 +149,8 @@ li {
     background: linear-gradient(var(--maincolor2), var(--maincolor1));
     color: var(--maincolor4);
     border-radius: 1rem;
-    padding: 0.5rem 0 0 1rem;
-    margin: 1rem 0 0 0;
-    padding: 1rem;
+    padding: 0.5rem 1rem 0 1rem;
+    margin: 1rem 1rem 0 0;
 }
 
 .green_month{
@@ -204,7 +201,7 @@ li {
     background-color: var(--maincolor8);
     color: var(--maincolor3);
     border-radius: 1rem;
-    padding:1rem;
+    padding: 1rem 1rem 0 1rem;
 }
 
 .purple{
@@ -225,3 +222,9 @@ li {
     color: #212121;
     font-weight: 700;
 }
+
+
+.imggirl{
+    display: block;
+}
+
