@@ -22,11 +22,11 @@
     --maincolor3: #212121;
     --maincolor4: #F5F5F5;
     --maincolor5: #707070;
-    --maincolor6: aliceblue;
+    --maincolor6: rgb(222, 241, 248);
     --maincolor7: white;
     --maincolor8: orange;
     --maincolor9: purple;
-    --maincolor10: #98e3ac;
+    --maincolor10: rgb(217, 249, 220);
 
 }
 
@@ -64,11 +64,20 @@ input{
     font-size: 12px;
 }
 
+.wbpurple{
+    font-weight: 700;
+    color: var(--maincolor9);
+}
+
+.ozonblue{
+    font-weight: 700;
+    color: var(--maincolor1);
+}
 
 .light_blue{
     background-color: var(--maincolor6);
     border-radius: 1rem;
-    padding: 1rem 1em 3rem 1rem;
+    padding: 1rem 2em 3rem 5rem;
     margin: 1rem 1rem 1rem 0;
     
 }
@@ -100,7 +109,27 @@ input{
     text-decoration: none;
 }
 
+.button_gradient{
+    color: var(--maincolor4);
+    background: linear-gradient(var(--maincolor2), var(--maincolor1));
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    text-decoration: none;
+}
+
+
 .button_blue2{
+    color: var(--maincolor4);
+    background-color: var(--maincolor1);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    border: none;
+}
+
+.button_blue3{
     color: var(--maincolor4);
     background-color: var(--maincolor1);
     padding: 1rem;
@@ -112,6 +141,11 @@ input{
 
 .table{
     margin: 2rem;
+}
+
+.zagalovok{
+    font-size: 3rem;
+    font-weight: 700;
 }
 
 .form{
@@ -152,8 +186,8 @@ li {
     background: linear-gradient(var(--maincolor2), var(--maincolor1));
     color: var(--maincolor4);
     border-radius: 1rem;
-    padding: 0.5rem 1rem 1rem 1rem;
-    margin: 1rem 1rem 0 0;
+    padding: 0.4rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 1rem 0;
 }
 
 .green_block2{
@@ -179,10 +213,13 @@ li {
 .light_green{
     background-color: var(--maincolor10);
     border-radius: 1rem;
-    padding: 1rem 0 1rem 1rem;
+    padding: 1rem 2em 3rem 5rem;
     margin: 1rem 1rem 1rem 0;
 }
 
+.pricefirst{
+    margin-bottom: 9rem;
+}
 
 .sail{
     background-color: var(--maincolor1);
@@ -208,7 +245,7 @@ li {
     border: 2px solid #2EB897;
     border-radius: 3rem;
     padding: 0.9rem;
-    margin: 1rem;
+    margin: 2rem 0 0 1rem;
     border-radius: 3rem;
     font-weight: 700;
 }
@@ -254,4 +291,232 @@ img.imggirl{
 .sail{
     display: flex;
     justify-content: end;
+}
+
+.wrapper{
+    margin: 0 auto;
+}
+
+.green_block_bigozon{
+    background: linear-gradient(var(--maincolor2), var(--maincolor1));
+    color: var(--maincolor4);
+    border-radius: 1rem;
+    padding: 3rem 1rem 5rem 1rem;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.arrow2{
+    margin: 0 0 0 0.5rem;
+}
+
+.wrapper1{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.text777{
+    max-width: 35rem;
+
+}
+
+.skidka{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text5{
+    max-width: 35rem;
+}
+
+.text100{
+    max-width: 35rem;
+}
+
+.wrappercount{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wrapperanalitika{
+    display: flex;
+    flex-direction: column;
+}
+
+.left{
+    justify-content: start;
+    text-align: start;
+}
+.right{
+    justify-content: end;
+    text-align: center;
+}
+
+.otchetpicture{
+    display: flex;
+    gap: 15rem;
+    max-width: max-content;
+    flex-wrap: wrap;
+}
+
+.rate{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.months{
+    display: flex;
+    gap: 3rem;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+    .tablebig{
+        display: none;
+    }
+    .closelogo{
+        display: none;
+    }
+    .info{
+        display: none;
+    }
+    .button_gradient{
+        display: none;
+    }
+    .vxod{
+        display: none;
+    }
+    .bigozon{
+        display: none;
+    }
+
+    .vladislav{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .tablesmall{
+        display: none;
+    }
+    .sixblocks{
+        max-width: max-content;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .wrapper1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu{
+        display: none;
+    }
+    .info{
+        display: flex;
+        gap: 5rem;
+        align-items: center;
+    }
+
+    .logoleft{
+        display: flex;
+        gap: 5rem;
+        align-items: center;
+    }
+
+    .menu_entrance{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .green_block{
+        max-width: max-content;
+    }
+
+    .wrapper_bigozon{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .bigozon_text{
+        display: flex;
+    }
+
+    .analitika_bigozon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .form{
+        width: 40rem ;
+    }
+    ::placeholder{
+        font-size: 2rem;
+    }
+
+    .wrappereconomia{
+        display: flex;
+    }
+
+    .month{
+        border: 1px solid rgb(183, 183, 183);
+        padding: 0 3rem;
+    }
+
+    .wrapper_feedback{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .vladislav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .feedbackarrows{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .lastwrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .firstblock{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .secondblock{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .thirdblock{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .fourthblock{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lastlastwrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
