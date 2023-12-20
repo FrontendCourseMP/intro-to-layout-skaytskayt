@@ -36,6 +36,8 @@ body{
     margin: 0.7rem;
     padding: 0.5rem;
     box-sizing: border-box;
+    max-width: 1440px;
+    margin-inline: auto;
 }
 
 button{
@@ -202,6 +204,7 @@ li {
     background-color: var(--maincolor2);
     color: var(--maincolor4);
     border-radius: 1rem;
+    padding: 0.5rem;
 }
 
 .white_month{
@@ -355,9 +358,10 @@ img.imggirl{
 
 .otchetpicture{
     display: flex;
-    gap: 15rem;
     max-width: max-content;
     flex-wrap: wrap;
+    gap: 5rem;
+    align-items: center;
 }
 
 .rate{
@@ -372,13 +376,173 @@ img.imggirl{
     white-space: nowrap;
 }
 
+.wrappergrid{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border-radius: 10px;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-rows: repeat(6, minmax(0, 1fr));
+    background-color: black;
+    gap: 1rem;
+}
+
+.wrapperflex{
+    display: flex;
+    justify-content: center;
+}
+
+.redcolumn1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: red;
+}
+
+.yellowrow1{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: yellow;
+}
+
+.redcolumn2{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: red;
+}
+
+.whitecolumn1{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: white;
+}
+
+.whitecolumn2{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: white;
+}
+
+.whitecolumn3{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    background-color: white;
+}
+
+.whitecolumn4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    background-color: white;
+}
+
+.whitecolumn5{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    background-color: white;
+}
+
+.whitecolumn6{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color: white;
+}
+
+.whitecolumn7{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color: white;
+}
+
+.bluerow{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    background-color: blue;
+}
+
+.yellowrow2{
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background-color: yellow;
+}
+.bar{
+    display: grid;
+    grid-row-start: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #212121;
+}
+
+.graficibar{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+
+.grafici{
+    display: grid;
+    gap: 3rem;
+}
+
+.graf1{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.graf234{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3rem;
+}
+
+.graf56{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3rem;
+}
+
+.knopki{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 3rem;
+}
+
+.bforg{
+    border-radius: 3rem;
+}
+
+.bodygrid{
+    margin-inline: 1rem;
+}
 
 
 
 
-
-
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1023.99px){
     .tablebig{
         display: none;
     }
@@ -401,9 +565,28 @@ img.imggirl{
     .vladislav{
         display: none;
     }
+
+    .otchetpicture{
+        display: contents;
+    }
+    .tablesmall{
+        display: flex;
+        justify-content: center;
+    }
+
+    .month12{
+        display: none;
+    }
+
+    .difarrows{
+        display: none;
+    }
+    
+    
+    
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1024px){
     .tablesmall{
         display: none;
     }
@@ -444,17 +627,18 @@ img.imggirl{
     .wrapper_bigozon{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
     }
 
     .bigozon_text{
         display: flex;
+        align-items: center;
     }
 
     .analitika_bigozon{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        text-align: center;
     }
 
     .form{
@@ -477,6 +661,7 @@ img.imggirl{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
     .vladislav{
         display: flex;
         flex-direction: column;
@@ -487,6 +672,7 @@ img.imggirl{
         display: flex;
         justify-content: space-between;
     }
+
 
     .lastwrapper{
         display: flex;
