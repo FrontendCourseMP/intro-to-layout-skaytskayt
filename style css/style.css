@@ -17,8 +17,8 @@
 
 :root{
     font-size: 62.5%;
-    --maincolor1: #127cf4;
-    --maincolor2: #11e6b4;
+    --maincolor1: #287bdb;
+    --maincolor2: #35d7b2;
     --maincolor3: #212121;
     --maincolor4: #F5F5F5;
     --maincolor5: #000000;
@@ -26,7 +26,7 @@
     --maincolor7: white;
     --maincolor8: orange;
     --maincolor9: purple;
-    --maincolor10: rgb(194, 223, 197);
+    --maincolor10: rgb(165, 255, 174);
     --maincolor11: #E8F2FC;
 
 }
@@ -111,7 +111,7 @@ input{
 
 .button_gradient{
     color: var(--maincolor4);
-    background: linear-gradient(var(--maincolor2), var(--maincolor1));
+    background: linear-gradient(var(--maincolor1), var(--maincolor2));
     padding: 1rem;
     border-radius: 2rem;
     border: none;
@@ -191,7 +191,7 @@ blockquote.citata{
 }
 
 .green_block2{
-    background: linear-gradient(var(--maincolor2), var(--maincolor1));
+    background: linear-gradient(var(--maincolor1), var(--maincolor2));
     color: var(--maincolor4);
     border-radius: 1rem;
     padding: 0.5rem 1rem 0 1rem;
@@ -304,7 +304,7 @@ img.imggirl{
 }
 
 .green_block_bigozon{
-    background: linear-gradient(var(--maincolor2), var(--maincolor1));
+    background: linear-gradient(var(--maincolor1), var(--maincolor2));
     color: var(--maincolor4);
     border-radius: 1rem;
     padding: 3rem 1rem 5rem 1rem;
