@@ -27,6 +27,7 @@
     --maincolor8: orange;
     --maincolor9: purple;
     --maincolor10: rgb(217, 249, 220);
+    --maincolor11: #E8F2FC;
 
 }
 
@@ -39,6 +40,8 @@ body{
     margin-left: 1rem;
 }
 
+
+
 button{
     border: none;
     background-color: transparent;
@@ -49,6 +52,8 @@ footer.lastblock{
     border-radius: 1rem;
     margin: 0.7rem 0 0 0;
     padding: 3rem;
+    position: sticky;
+    top: 100vh;
 }
 
 h1{
@@ -566,6 +571,76 @@ a{
     gap: 1rem;
 }
 
+.formflex{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.req {
+    color: red;
+}
+
+select{
+    display: block;
+    background-color: var(--maincolor11);
+}
+
+
+input.formpage{
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 0.1rem solid black;
+    width: 330px;
+    height: 10px;
+    font-size: 14px;
+    background-color: var(--maincolor11);
+}
+.personal{
+    margin-bottom: 1rem;
+}
+
+.sendbut{
+    width: 80px;
+    color: var(--maincolor4);
+    background-color: var(--maincolor1);
+    border-radius: 2rem;
+    text-decoration: none;
+    border: none;
+}
+
+.resetbut{
+    width: 80px;
+    color: var(--maincolor4);
+    background-color: var(--maincolor1);
+    border-radius: 2rem;
+    text-decoration: none;
+    border: none;
+}
+
+select{
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 0.1rem solid black;
+    width: 350px;
+    height: 10px;
+    font-size: 14px;
+}
+
+
+html, body { height: 100%;}
+
+.body > .footer {
+  position: sticky;
+  top: 100vh;
+}
+
+.bodyindex{
+    ::selection{
+        color: var(--maincolor2);
+        background-color: var(--maincolor1);
+    }
+}
 
 
 @media screen and (max-width: 1023.99px){
