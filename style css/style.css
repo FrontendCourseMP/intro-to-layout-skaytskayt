@@ -17,16 +17,16 @@
 
 :root{
     font-size: 62.5%;
-    --maincolor1: #2A84EE;
-    --maincolor2: #2EB897;
+    --maincolor1: #127cf4;
+    --maincolor2: #11e6b4;
     --maincolor3: #212121;
     --maincolor4: #F5F5F5;
     --maincolor5: #000000;
-    --maincolor6: rgb(222, 241, 248);
+    --maincolor6: rgb(196, 239, 254);
     --maincolor7: white;
     --maincolor8: orange;
     --maincolor9: purple;
-    --maincolor10: rgb(217, 249, 220);
+    --maincolor10: rgb(194, 223, 197);
     --maincolor11: #E8F2FC;
 
 }
