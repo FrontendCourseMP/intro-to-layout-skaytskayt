@@ -35,36 +35,48 @@
           </div>
         </header>
         <main class="main">
-          <form action="“//httpbin.org/post”" class="formflex" method="post">
+          <form action="//httpbin.org/post" class="formflex" method="post">
                   <div class="personal formflex">
-                    <p>Персональные данные:</p>
-                    <label><input type="text" name="name" required placeholder="Введите имя" class="formpage"><span class="req">*</span></label>
-                    <label><input type="date" name="birthday" required placeholder="Введите дату рождения" class="formpage"><span class="req">*</span></label>
-                    <label>
-                      <span>Выберите пол:</span>
-                      <select name="sex" id="">
-                          <option value="male">Мужской</option>
-                          <option value="female">Женский</option>
-                      </select>
-                    </label>
-                    <label><input type="password" name="password" required placeholder="Введите пароль" class="formpage"><span class="req">*</span></label>
-                  </div>
-                  <div class="contact formflex">
-                    <p>Контактные данные:</p>
-                    <label><input type="email" name="email" required placeholder="Введите email" class="formpage"><span class="req">*</span></label>
-                    <label><input type="tel" name="tel" required placeholder="Введите телефон"  class="formpage"><span class="req">*</span></label>
-                    <label>
-                      <span>Выберите удобное время для связи:</span>
-                      <select name="time">
-                          <option value="morning">Утром</option>
-                          <option value="day">Днем</option>
-                          <option value="evening">Вечером</option>
-                          <option value="night">Ночь</option>
-                      </select>
-                    </label>
-                  </div>
-                  <button type="submit" class="sendbut">Отправить</button>
-                  <button type="reset" class="resetbut">Сбросить</button>
+                    <fieldset>
+                      <div class="fieldset">
+                        <legend>
+                          Персональные данные:
+                        </legend>
+                                            <label><input type="text" name="name" required placeholder="Введите имя" class="formpage"><span class="req">*</span></label>
+                                            <label><input type="date" name="birthday" required placeholder="Введите дату рождения" class="formpage"><span class="req">*</span></label>
+                                            <label>
+                        <span>Выберите пол:</span>
+                        <select name="sex" id="">
+                            <option value="male">Мужской</option>
+                            <option value="female">Женский</option>
+                        </select>
+                                            </label>
+                                            <label><input type="password" name="password" required placeholder="Введите пароль" class="formpage"><span class="req">*</span></label>
+                                            </div>
+                                            <div class="contact formflex">
+                      </div>
+                  </fieldset>
+                  <fieldset>
+                    <legend>
+                      Контактные данные:
+                    </legend>
+                    <div class="fieldset">
+                      <label><input type="email" name="email" required placeholder="Введите email" class="formpage"><span class="req">*</span></label>
+                      <label><input type="tel" name="tel" required placeholder="Введите телефон"  class="formpage"><span class="req">*</span></label>
+                      <label>
+                        <span>Выберите удобное время для связи:</span>
+                        <select name="time">
+                            <option value="morning">Утром</option>
+                            <option value="day">Днем</option>
+                            <option value="evening">Вечером</option>
+                            <option value="night">Ночь</option>
+                        </select>
+                      </label>
+                                        </div>
+                                        <button type="submit" class="sendbut">Отправить</button>
+                                        <button type="reset" class="resetbut">Сбросить</button>
+                    </div>
+                </fieldset>
           </form>
 
           <form action="#">

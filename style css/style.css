@@ -31,6 +31,12 @@
 
 }
 
+.fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
@@ -147,7 +153,7 @@ input{
 
 .button_blue3{
     color: var(--maincolor4);
-    background-color: var(--maincolor1);
+    background-color: var(--maincolor2);
     padding: 1rem;
     margin: 1rem;
     border-radius: 2rem;
@@ -782,6 +788,20 @@ dd::before{
     transition: all .2s ease-out;
     background:#00cc00;
   }
+
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
   @keyframes marqueeLeft{
     0% {
       left: 0;
@@ -794,7 +814,7 @@ dd::before{
 
 .bodyindex{
     ::selection{
-        color: var(--maincolor2);
+        color: var(--maincolor1);
         background-color: var(--maincolor1);
     }
 
@@ -810,9 +830,12 @@ dd::before{
         transform: rotate(360deg);
         transition: 1s;
     }
+    input::placeholder{
+        color: #0064d5;
+    }
 
     a:focus{
-        color: var(--maincolor2);
+        color: var(--maincolor5);
     }
     button:focus{
         background-color: var(--maincolor8);
